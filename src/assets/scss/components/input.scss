@@ -1,0 +1,23 @@
+input{
+    font-family: 'Montserrat';
+    border-radius: 50px !important;
+    background: $font-white;
+    border: none;
+}
+
+::placeholder {
+    color: $color-grey3 !important;
+    //opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+color: $color-grey3 !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+color: $color-grey3 !important;
+}
+
+select {
+    color: $color-grey3 !important;
+}

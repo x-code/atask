@@ -1,0 +1,106 @@
+.btn {
+    color: $font-white;
+    background-color: $color-primary;
+    padding: 16px 32px 16px 32px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    border-color: $color-primary;
+    background: $color-primary;
+}
+
+
+.btn-md {
+    color: $font-white;
+    background-color: $color-primary;
+    padding: 8px 15px 8px 15px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 12px;
+    border-color: $color-primary;
+    background: $color-primary;
+    
+}
+
+.btn-md-blue {
+    color: $font-white;
+    padding: 8px 15px 8px 15px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 12px;
+    border-color: $color-blue;
+    background: $color-blue;
+    
+}
+
+.btn-sm {
+    color: $font-white;
+    background-color: $color-primary;
+    padding: 3px 10px 3px 10px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 10px;
+    border-color: $color-primary;
+    background: $color-primary;
+    text-align: center;
+    min-width: 90px;
+}
+
+.btn-xs{
+    color: $font-white;
+    background-color: $color-primary;
+    padding: 3px 10px 3px 10px;
+    border-radius: 50px;
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 20px;
+    border-color: $color-primary;
+    background: $color-primary;
+}
+
+.btn-inside {
+    color: $font-white;
+    background-color: $color-primary;
+    padding: 6px 10px 6px 10px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 12px;
+    border-color: $color-primary;
+    background: $color-primary;
+    text-align: center;
+    min-width: 90px;
+}
+
+.btn-next-prev {
+    height: 52px;
+    width: 100%;
+    left: 534px;
+    top: 420px;
+    border-radius: 50px;
+    padding: 14px 32px 14px 32px;
+}
+.btn-upload{
+    height: 100%;
+    width: 100%;
+    left: 382px;
+    top: 420px;
+    border-radius: 20px;
+    padding: 16px 32px 16px 32px;
+    
+}
+.btn-inactive{
+    background-color: $color-primary-lightness4 !important;
+    color: $color-grey4 !important;
+}
+.btn:hover {
+    border-color: $color-primary;
+    background: $color-primary;
+}
+.btn-primary.disabled, .btn-primary:disabled{
+    background-color: $color-primary-lightness4 !important;
+    border-color: $color-primary-lightness4 !important;
+    color: $color-grey4;
+}
+.btn-full-width {
+    width: 100% !important
+}
